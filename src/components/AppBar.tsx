@@ -54,7 +54,6 @@ export const AppBar: React.FC = () => {
                   <a>Autoconnect</a>
                   <input type="checkbox" checked={autoConnect} onChange={(e) => setAutoConnect(e.target.checked)} className="toggle" />
                 </label>
-                <NetworkSwitcher />
               </div>
             </li>
           </ul>
